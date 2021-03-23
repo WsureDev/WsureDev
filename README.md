@@ -12,10 +12,12 @@
 
 #### 你可能关心的项目
 |项目|地址|语言|平台|
-|--|--|--|--|
-|WF机器人插件|[warframe-world-state](https://github.com/WsureDev/warframe-world-state)|`Kotlin`|All|
+|---|---|---|---|
+|Warframe世界状态api🔥🔥🔥|[warframe-info-api](https://github.com/WsureDev/warframe-info-api)|`Node.js`|All|
+|Warframe机器人插件🔥🔥|[warframe-world-state](https://github.com/WsureDev/warframe-world-state)|`Kotlin`|All|
+|Warframe机器人插件apk🔥|[warframe-world-state-apk](https://github.com/WsureDev/warframe-world-state-apk)|`Kotlin`|`Android`|
 
-
+#### 经常整的活儿
 ![](https://img.shields.io/badge/-Kotlin-orange?style=flat-square&logo=Kotlin&logoColor=fff)
 ![](https://img.shields.io/badge/-Java-ab7221?style=flat-square&logo=Java&logoColor=fff)
 ![](https://img.shields.io/badge/-Node-339933?style=flat-square&logo=Node.js&logoColor=fff)
