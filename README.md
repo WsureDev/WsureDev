@@ -2,6 +2,18 @@
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=WsureDev&show_icons=true&hide_border=true&icon_color=586069&title_color=a0a9af">
 </a>
 
+### 欢迎来到我的Github 
+
+* 无情的挖坑机器 (不一定填)
+* 水群摸🐟小能手
+* 一般社畜 (打工人)
+* 游戏菜🐔
+* inso
+
+#### 你可能关心的项目
+|项目|地址|语言|平台|
+|--|--|--|--|
+|WF机器人插件|[warframe-world-state](https://github.com/WsureDev/warframe-world-state)|`Kotlin`|All|
 
 
 ![](https://img.shields.io/badge/-Kotlin-orange?style=flat-square&logo=Kotlin&logoColor=fff)
