@@ -2,7 +2,9 @@
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=WsureDev&show_icons=true&hide_border=true&icon_color=586069&title_color=a0a9af">
 </a>
 
-### 欢迎来到我的Github 
+## 欢迎来到我的Github 
+
+### 失业中... (Kotlin 也就图一乐，找工作还得看Java)
 
 * 无情的挖坑机器 (不一定填)
 * 水群摸🐟小能手
