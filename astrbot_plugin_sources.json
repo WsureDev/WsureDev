@@ -8,11 +8,11 @@
     "description": "WsureDev 的自定义 AstrBot 插件市场源",
     "updated_at": "2026-06-29T00:00:00Z"
   },
-  "WsureDev/astrbot_plugin_bilibili_persona": {
+  "WsureDev/astrbot_plugin_biliup_persona": {
     "author": "WsureDev",
-    "name": "astrbot_plugin_bilibili_persona",
-    "version": "v1.2.0",
-    "repo": "https://github.com/WsureDev/astrbot_plugin_bilibili_persona",
+    "name": "astrbot_plugin_biliup_persona",
+    "version": "v2.0.0",
+    "repo": "https://github.com/WsureDev/astrbot_plugin_biliup_persona",
     "desc": "通过抓取 B 站数据，自动构建 UP 主人物画像与社交关系图谱知识库，支持增量更新与 WBI 签名破解",
     "display_name": "Bilibili UP 主人物画像 RAG",
     "astrbot_version": ">=4.5.7",
