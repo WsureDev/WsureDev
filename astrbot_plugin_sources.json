@@ -1,22 +1,58 @@
 {
-  "$meta": {
-    "schema_version": 1,
-    "name": "WsureDev Plugin Market",
-    "version": "2026-06-29",
-    "homepage": "https://github.com/WsureDev",
-    "repository": "https://github.com/WsureDev/WsureDev",
-    "description": "WsureDev 的自定义 AstrBot 插件市场源",
-    "updated_at": "2026-06-29T00:00:00Z"
-  },
-  "WsureDev/astrbot_plugin_biliup_persona": {
-    "author": "WsureDev",
-    "name": "astrbot_plugin_biliup_persona",
-    "version": "v2.0.0",
-    "repo": "https://github.com/WsureDev/astrbot_plugin_biliup_persona",
-    "desc": "通过抓取 B 站数据，自动构建 UP 主人物画像与社交关系图谱知识库，支持增量更新与 WBI 签名破解",
-    "display_name": "Bilibili UP 主人物画像 RAG",
-    "astrbot_version": ">=4.5.7",
-    "social_link": "https://github.com/WsureDev",
-    "updated_at": "2026-06-29T00:00:00Z"
-  }
+    "$meta": {
+        "schema_version": 1,
+        "name": "WsureDev Plugin Market",
+        "version": "2026-07-07",
+        "homepage": "https://github.com/WsureDev",
+        "repository": "https://github.com/WsureDev/WsureDev",
+        "description": "WsureDev 的自定义 AstrBot 插件市场源",
+        "updated_at": "2026-07-19T00:00:00Z"
+    },
+    "WsureDev/astrbot_plugin_biliup_persona": {
+        "author": "WsureDev",
+        "name": "astrbot_plugin_biliup_persona",
+        "version": "v2.0.0",
+        "repo": "https://github.com/WsureDev/astrbot_plugin_biliup_persona",
+        "desc": "通过抓取 B 站数据，自动构建 UP 主人物画像与社交关系图谱知识库，支持增量更新与 WBI 签名破解",
+        "display_name": "Bilibili UP 主人物画像 RAG",
+        "astrbot_version": ">=4.5.7",
+        "social_link": "https://github.com/WsureDev",
+        "updated_at": "2026-06-29T00:00:00Z"
+    },
+    "WsureDev/astrbot_plugin_kuang": {
+        "author": "WsureDev",
+        "name": "astrbot_plugin_kuang",
+        "version": "0.1.0",
+        "repo": "https://github.com/WsureDev/astrbot_plugin_kuang",
+        "desc": "为图片或用户头像叠加 FPS 外挂透视风格的白色线框。",
+        "display_name": "框",
+        "short_desc": "为图片或头像叠加 5 个 FPS 风格白色线框。",
+        "astrbot_version": ">=4.5.7",
+        "social_link": "https://github.com/WsureDev",
+        "updated_at": "2026-07-06T00:00:00Z"
+    },
+    "WsureDev/astrbot_plugin_test_log": {
+        "author": "WsureDev",
+        "name": "astrbot_plugin_test_log",
+        "version": "v1.0.0",
+        "repo": "https://github.com/WsureDev/astrbot_plugin_test_log",
+        "desc": "测试 AstrBot 日志模块的插件：提供 /test_log 指令打印 info/debug 日志，并在配置 UI 上提供 debug 日志输出开关。",
+        "display_name": "日志测试插件",
+        "short_desc": "通过 /test_log 打印 info/debug 日志，含 debug 输出开关。",
+        "astrbot_version": ">=4.5.7",
+        "social_link": "https://github.com/WsureDev",
+        "updated_at": "2026-07-07T00:00:00Z"
+    },
+    "WsureDev/astrbot_plugin_bililive_perception": {
+        "author": "WsureDev",
+        "name": "astrbot_plugin_bililive_perception",
+        "version": "v0.1.0",
+        "repo": "https://github.com/WsureDev/astrbot_plugin_bililive_perception",
+        "desc": "调用 bililive 直播内容感知服务,让 bot 理解 b 站直播间正在直播什么(音频转述+画面描述+融合总结)。支持服务端/客户端两种融合模式。",
+        "display_name": "B站直播内容感知",
+        "short_desc": "感知 b 站直播间正在直播什么,音频转述+画面描述+融合总结。",
+        "astrbot_version": ">=4.5.7",
+        "social_link": "https://github.com/WsureDev",
+        "updated_at": "2026-07-19T00:00:00Z"
+    }
 }
