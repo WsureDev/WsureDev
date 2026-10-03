@@ -2,11 +2,11 @@
     "$meta": {
         "schema_version": 1,
         "name": "WsureDev Plugin Market",
-        "version": "2026-07-07",
+        "version": "2026-10-03",
         "homepage": "https://github.com/WsureDev",
         "repository": "https://github.com/WsureDev/WsureDev",
         "description": "WsureDev 的自定义 AstrBot 插件市场源",
-        "updated_at": "2026-07-19T00:00:00Z"
+        "updated_at": "2026-10-03T10:39:00Z"
     },
     "WsureDev/astrbot_plugin_biliup_persona": {
         "author": "WsureDev",
@@ -19,40 +19,163 @@
         "social_link": "https://github.com/WsureDev",
         "updated_at": "2026-06-29T00:00:00Z"
     },
-    "WsureDev/astrbot_plugin_kuang": {
-        "author": "WsureDev",
-        "name": "astrbot_plugin_kuang",
-        "version": "0.1.0",
-        "repo": "https://github.com/WsureDev/astrbot_plugin_kuang",
-        "desc": "为图片或用户头像叠加 FPS 外挂透视风格的白色线框。",
-        "display_name": "框",
-        "short_desc": "为图片或头像叠加 5 个 FPS 风格白色线框。",
-        "astrbot_version": ">=4.5.7",
-        "social_link": "https://github.com/WsureDev",
-        "updated_at": "2026-07-06T00:00:00Z"
-    },
-    "WsureDev/astrbot_plugin_test_log": {
-        "author": "WsureDev",
-        "name": "astrbot_plugin_test_log",
-        "version": "v1.0.0",
-        "repo": "https://github.com/WsureDev/astrbot_plugin_test_log",
-        "desc": "测试 AstrBot 日志模块的插件：提供 /test_log 指令打印 info/debug 日志，并在配置 UI 上提供 debug 日志输出开关。",
-        "display_name": "日志测试插件",
-        "short_desc": "通过 /test_log 打印 info/debug 日志，含 debug 输出开关。",
-        "astrbot_version": ">=4.5.7",
-        "social_link": "https://github.com/WsureDev",
-        "updated_at": "2026-07-07T00:00:00Z"
+    "Shell/astrbot_plugin_batchrecall": {
+        "author": "Shell",
+        "name": "astrbot_plugin_batchrecall",
+        "version": "v1.1.2",
+        "desc": "【仅QQ】批量撤回,编号撤回(所有人),引用撤回,指定撤回,自动撤回,防撤回,撤回自身",
+        "display_name": "批量撤回",
+        "repo": "https://github.com/WsureDev/astrbot_plugin_batchrecall",
+        "social_link": "https://github.com/1592363624",
+        "updated_at": "2026-09-12T03:30:09Z"
     },
     "WsureDev/astrbot_plugin_bililive_perception": {
         "author": "WsureDev",
         "name": "astrbot_plugin_bililive_perception",
         "version": "v0.1.0",
         "repo": "https://github.com/WsureDev/astrbot_plugin_bililive_perception",
-        "desc": "调用 bililive 直播内容感知服务,让 bot 理解 b 站直播间正在直播什么(音频转述+画面描述+融合总结)。支持服务端/客户端两种融合模式。",
+        "desc": "调用 bililive 直播内容感知服务,让 bot 理解 b 站直播间正在直播什么(音频转述+画面描述+融合总结)",
         "display_name": "B站直播内容感知",
         "short_desc": "感知 b 站直播间正在直播什么,音频转述+画面描述+融合总结。",
         "astrbot_version": ">=4.5.7",
         "social_link": "https://github.com/WsureDev",
-        "updated_at": "2026-07-19T00:00:00Z"
+        "updated_at": "2026-07-19T11:43:24Z"
+    },
+    "WsureDev/astrbot_plugin_channel_generation_profiles": {
+        "author": "WsureDev",
+        "name": "astrbot_plugin_channel_generation_profiles",
+        "version": "v0.2.2",
+        "desc": "为 AstrBot 的 ComfyUI 与生图插件提供按渠道隔离的工作流和模型配置。",
+        "display_name": "渠道生图配置隔离",
+        "repo": "https://github.com/WsureDev/astrbot_plugin_channel_generation_profiles",
+        "social_link": "https://github.com/WsureDev",
+        "updated_at": "2026-09-30T07:58:38Z"
+    },
+    "lumingya/astrbot_plugin_comfyui_pro": {
+        "author": "lumingya",
+        "name": "astrbot_plugin_comfyui_pro",
+        "version": "2.4.1",
+        "desc": "AstrBot 的高级 ComfyUI 连接插件，支持多工作流热切换、LLM 智能绘图、自定义系统提示词及敏感词过滤。",
+        "tags": [
+            "画图",
+            "comfyui"
+        ],
+        "repo": "https://github.com/WsureDev/astrbot_plugin_comfyui_pro",
+        "social_link": "https://github.com/lumingya",
+        "updated_at": "2026-09-10T08:51:04Z"
+    },
+    "WsureDev/astrbot_plugin_cpa_usage": {
+        "author": "WsureDev",
+        "name": "astrbot_plugin_cpa_usage",
+        "version": "0.3.0",
+        "desc": "匹配当前 AstrBot Provider，只读查询 CPA 配额并发送容量卡片。",
+        "display_name": "CPA Usage",
+        "astrbot_version": ">=4.13",
+        "repo": "https://github.com/WsureDev/astrbot_plugin_cpa_usage",
+        "social_link": "https://github.com/WsureDev",
+        "updated_at": "2026-09-06T12:29:09Z"
+    },
+    "WsureDev/astrbot_plugin_drawing_experience": {
+        "author": "WsureDev",
+        "name": "astrbot_plugin_drawing_experience",
+        "version": "1.1.2",
+        "desc": "以用户明确确认为唯一写入入口，管理会话提示词版本和隔离的绘画成品知识库。",
+        "display_name": "绘画提示词版本与成品库",
+        "short_desc": "会话版本管理与用户确认后才写入的绘画成品库。",
+        "astrbot_version": ">=4.23.1,<5",
+        "tags": [
+            "绘画",
+            "提示词",
+            "版本管理",
+            "知识库"
+        ],
+        "repo": "https://github.com/WsureDev/astrbot_plugin_drawing_experience",
+        "social_link": "https://github.com/WsureDev",
+        "updated_at": "2026-08-10T17:05:20Z"
+    },
+    "WsureDev/astrbot_plugin_kuang": {
+        "author": "WsureDev",
+        "name": "astrbot_plugin_kuang",
+        "version": "0.7.2",
+        "repo": "https://github.com/WsureDev/astrbot_plugin_kuang",
+        "desc": "为图片或用户头像叠加 FPS 外挂透视风格的白色线框。",
+        "display_name": "框",
+        "short_desc": "为图片或头像叠加 5 个 FPS 风格白色线框。",
+        "astrbot_version": ">=4.5.7",
+        "social_link": "https://github.com/WsureDev",
+        "updated_at": "2026-07-17T16:15:55Z"
+    },
+    "wsure/astrbot_plugin_llm_monitor": {
+        "author": "wsure",
+        "name": "astrbot_plugin_llm_monitor",
+        "version": "v0.4.0",
+        "desc": "记录 AstrBot 的 LLM 请求、模型负载、耗时、用量与 Agent 工具调用，并提供 WebUI 页面。",
+        "display_name": "LLM 负载监控",
+        "astrbot_version": ">=4.28.0",
+        "support_platforms": [
+            "aiocqhttp",
+            "qq_official",
+            "telegram",
+            "discord",
+            "slack",
+            "kook",
+            "lark",
+            "satori",
+            "misskey",
+            "line"
+        ],
+        "repo": "https://github.com/WsureDev/astrbot_plugin_llm_monitor",
+        "social_link": "https://github.com/WsureDev",
+        "updated_at": "2026-10-02T05:33:45Z"
+    },
+    "WsureDev/priceai_monitor": {
+        "author": "WsureDev",
+        "name": "priceai_monitor",
+        "version": "0.1.0",
+        "desc": "通过自然语言管理 PriceAI Core 能力、当前会话订阅与周期分析，并可靠推送能力自定义事件。",
+        "display_name": "PriceAI Monitor",
+        "short_desc": "PriceAI Core 的 AstrBot 管理与事件消费插件",
+        "astrbot_version": ">=4.16,<5",
+        "repo": "https://github.com/WsureDev/astrbot_plugin_priceai_monitor",
+        "social_link": "https://github.com/WsureDev",
+        "updated_at": "2026-08-23T16:50:09Z"
+    },
+    "WsureDev/astrbot_plugin_shitu_vote_monitor": {
+        "author": "WsureDev",
+        "name": "astrbot_plugin_shitu_vote_monitor",
+        "version": "v0.1.2",
+        "desc": "定时轮询 B 站师徒杯 S3 投票排行数据，支持 /rank 查看实时榜单。",
+        "display_name": "师徒杯S3投票监控",
+        "short_desc": "师徒杯S3投票排行监控",
+        "astrbot_version": ">=4.5.0",
+        "repo": "https://github.com/WsureDev/astrbot_plugin_shitu_vote_monitor",
+        "social_link": "https://github.com/WsureDev",
+        "updated_at": "2026-06-20T17:09:51Z"
+    },
+    "WsureDev/test_log": {
+        "author": "WsureDev",
+        "name": "test_log",
+        "version": "v1.0.0",
+        "repo": "https://github.com/WsureDev/astrbot_plugin_test_log",
+        "desc": "用于测试日志模块的插件，支持 debug 日志输出开关。",
+        "display_name": "日志测试插件",
+        "short_desc": "通过 /test_log 打印 info/debug 日志，含 debug 输出开关。",
+        "astrbot_version": ">=4.5.7",
+        "social_link": "https://github.com/WsureDev",
+        "updated_at": "2026-07-07T20:46:39Z"
+    },
+    "WsureDev/astrbot_plugin_tim_forward_fix": {
+        "author": "WsureDev",
+        "name": "astrbot_plugin_tim_forward_fix",
+        "version": "v0.2.0",
+        "desc": "拆分 QQ 合并转发中的过长文本，并限制卡片预览长度，改善 TIM 转发显示兼容性。",
+        "display_name": "TIM 转发修复",
+        "astrbot_version": ">=4.28.0",
+        "support_platforms": [
+            "aiocqhttp"
+        ],
+        "repo": "https://github.com/WsureDev/astrbot_plugin_tim_forward_fix",
+        "social_link": "https://github.com/WsureDev",
+        "updated_at": "2026-10-02T16:00:02Z"
     }
 }
