@@ -6,7 +6,7 @@
         "homepage": "https://github.com/WsureDev",
         "repository": "https://github.com/WsureDev/WsureDev",
         "description": "WsureDev 的自定义 AstrBot 插件市场源",
-        "updated_at": "2026-10-03T10:39:00Z"
+        "updated_at": "2026-10-03T12:15:17Z"
     },
     "WsureDev/astrbot_plugin_biliup_persona": {
         "author": "WsureDev",
@@ -22,12 +22,12 @@
     "Shell/astrbot_plugin_batchrecall": {
         "author": "Shell",
         "name": "astrbot_plugin_batchrecall",
-        "version": "v1.1.2",
+        "version": "v1.1.3",
         "desc": "【仅QQ】批量撤回,编号撤回(所有人),引用撤回,指定撤回,自动撤回,防撤回,撤回自身",
         "display_name": "批量撤回",
         "repo": "https://github.com/WsureDev/astrbot_plugin_batchrecall",
         "social_link": "https://github.com/1592363624",
-        "updated_at": "2026-09-12T03:30:09Z"
+        "updated_at": "2026-10-03T11:45:32Z"
     },
     "WsureDev/astrbot_plugin_bililive_perception": {
         "author": "WsureDev",
