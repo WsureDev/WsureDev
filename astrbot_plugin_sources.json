@@ -6,7 +6,7 @@
         "homepage": "https://github.com/WsureDev",
         "repository": "https://github.com/WsureDev/WsureDev",
         "description": "WsureDev 的自定义 AstrBot 插件市场源",
-        "updated_at": "2026-10-03T12:15:17Z"
+        "updated_at": "2026-10-25T11:07:42Z"
     },
     "WsureDev/astrbot_plugin_biliup_persona": {
         "author": "WsureDev",
@@ -177,5 +177,20 @@
         "repo": "https://github.com/WsureDev/astrbot_plugin_tim_forward_fix",
         "social_link": "https://github.com/WsureDev",
         "updated_at": "2026-10-02T16:00:02Z"
+    },
+    "WsureDev/astrbot_plugin_context_enishi": {
+        "author": "WsureDev",
+        "name": "astrbot_plugin_context_enishi",
+        "version": "v0.4.0",
+        "desc": "将上下文整理与聊天感知分开配置，支持图片管理、群聊人员活跃排序及按需环境查询。",
+        "display_name": "Context Enishi",
+        "astrbot_version": ">=4.28.0",
+        "support_platforms": [
+            "aiocqhttp",
+            "telegram"
+        ],
+        "repo": "https://github.com/WsureDev/astrbot_plugin_context_enishi",
+        "social_link": "https://github.com/WsureDev",
+        "updated_at": "2026-10-10T09:36:54Z"
     }
 }
