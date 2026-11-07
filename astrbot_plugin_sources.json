@@ -6,7 +6,7 @@
         "homepage": "https://github.com/WsureDev",
         "repository": "https://github.com/WsureDev/WsureDev",
         "description": "WsureDev 的自定义 AstrBot 插件市场源",
-        "updated_at": "2026-10-25T11:07:42Z"
+        "updated_at": "2026-11-07T05:12:44Z"
     },
     "WsureDev/astrbot_plugin_biliup_persona": {
         "author": "WsureDev",
@@ -192,5 +192,37 @@
         "repo": "https://github.com/WsureDev/astrbot_plugin_context_enishi",
         "social_link": "https://github.com/WsureDev",
         "updated_at": "2026-10-10T09:36:54Z"
+    },
+    "wsure/astrbot_plugin_llm_result_final_only": {
+        "author": "wsure",
+        "name": "astrbot_plugin_llm_result_final_only",
+        "version": "1.0.0",
+        "desc": "阻断内置 Agent 中间输出，不合并过程消息，只发送最终响应。提供原生配置开关，支持流式模式。",
+        "display_name": "只发最终回复",
+        "astrbot_version": ">=4.28,<4.30",
+        "tags": [
+            "Agent",
+            "输出控制",
+            "最终回复"
+        ],
+        "repo": "https://github.com/WsureDev/astrbot_plugin_llm_result_final_only",
+        "social_link": "https://github.com/WsureDev",
+        "updated_at": "2026-11-07T03:23:36Z"
+    },
+    "wsure/astrbot_plugin_gsvi_short_tts": {
+        "author": "wsure",
+        "name": "astrbot_plugin_gsvi_short_tts",
+        "version": "1.2.0",
+        "desc": "直接调用 GSVI，将短回复转换为语音。群聊、私聊、WebChat 分别设置音色、字数和整数触发概率，支持自定义 Header 与 API Key。",
+        "display_name": "GSVI 渠道短文本语音",
+        "astrbot_version": ">=4.28,<4.30",
+        "tags": [
+            "GSVI",
+            "GPT-SoVITS",
+            "TTS"
+        ],
+        "repo": "https://github.com/WsureDev/astrbot_plugin_gsvi_short_tts",
+        "social_link": "https://github.com/WsureDev",
+        "updated_at": "2026-11-07T04:47:02Z"
     }
 }
